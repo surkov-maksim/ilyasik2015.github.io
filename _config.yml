@@ -1,0 +1,56 @@
+title: Балакин Илья Владимирович
+description: >-
+  Предположительно сын члена общественного совета при МВД (осуществляет надзор за соблюдением процессуальных норм, исполнений приказов и распоряжений министра МВД). Мать работает в суде.<br/>
+  Любитель шуток про убийство Путина.<br/>
+  Создатель и распространитель экстремистких материалов на своем канале в Telegram, включающих сжигание и глумление над импровизированными узбеками и евреями.
+author: 
+  name: Илья Балакин
+  twitter: ilyasik2015
+  
+logo: /assets/img/1507310414.jpg
+
+social:
+  name: Илья Балакин
+  links:
+    - https://t.me/error404rorre
+    - https://t.me/Ilyusha2017
+    - https://t.me/ilyavelikiy
+    - https://vk.com/id329914774
+    - https://www.instagram.com/ilyasik2015
+    - https://twitter.com/ilyasik2015
+    - https://t.me/Ilya_Balakin
+  
+twitter:
+  username: "@ilyasik2015"
+
+baseurl: ""
+
+show_downloads: false
+
+timezone: Russia/Moscow
+lang: ru-RU
+theme: jekyll-theme-minimal
+
+defaults:
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
+  - scope:
+      path: "assets/audio"
+    values:
+      audio: true
+  - scope:
+      path: "assets/video"
+    values:
+      video: true
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-mentions
+  - jemoji
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-avatar
+  - jekyll-github-metadata
